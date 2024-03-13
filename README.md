@@ -33,4 +33,8 @@ Untuk mengoptimalkan kode aplikasi, saya menerapkan beberapa strategi seperti *r
 ## JMeter Report and Test Results
 ### Endpoint '/all-student'
 Test Result<br>
-![alt text](https://github.com/rafizia/exercise-profiling/tree/optimize/image/test-result-1.png?raw=true)
+![alt text](https://github.com/rafizia/exercise-profiling/tree/optimize/image/test-result-1.png)
+Before Optimization<br>
+![alt text](https://github.com/rafizia/exercise-profiling/tree/optimize/image/before-all-student-request.png)
+After Optimization<br>
+![alt text](https://github.com/rafizia/exercise-profiling/tree/optimize/image/after-all-student-request.png)
