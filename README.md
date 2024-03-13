@@ -6,12 +6,12 @@ Kelas: Pemrograman Lanjut B<br>
 
 ## Reflection
 ### Perbedaan JMeter dengan IntelliJ Profiler
-perbedaan antara JMeter dan IntelliJ Profiler dalam konteks optimisasi kinerja aplikasi yaitu:
+Perbedaan antara JMeter dan IntelliJ Profiler dalam konteks optimisasi kinerja aplikasi yaitu:
 * JMeter digunakan untuk menganalisis kinerja aplikasi dalam situasi beban yang tinggi atau skenario penggunaan yang realistis. Analisis ini dilakukan dengan mengirimkan permintaan HTTP atau protokol lainnya ke server aplikasi dan mengukur waktu respons, throughput, dan lainnya.
 * IntelliJ Profiler digunakan untuk menganalisis perilaku dan kinerja aplikasi secara mendetail pada tingkat kode. Analisis ini meliputi pemantauan penggunaan CPU, alokasi memori, waktu eksekusi, dan lainnya.
 
 ### Proses *Profiling*
-*Profiling* membantu mengidentifikasi dan memahami titik lemah aplikasi dengan memberikan informasi tentang perilaku aplikasi saat berjalan seperti identifikasi fungsi, metode, atau blok kode yang memakan waktu eksekusi yang signifikan, analisis penggunaan memori yang berlebihan, analisis pola penggunaan CPU, dan analisis panggilan fungsi dan *stack trace*.
+*Profiling* membantu mengidentifikasi dan memahami titik lemah aplikasi dengan memberikan informasi tentang perilaku aplikasi saat berjalan seperti identifikasi fungsi, metode, atau blok kode yang memakan waktu eksekusi yang signifikan, analisis penggunaan memori yang berlebihan, analisis pola penggunaan CPU, serta analisis panggilan fungsi dan *stack trace*.
 
 ### Efektifitas IntelliJ Profiler
 Menurut saya, IntelliJ Profiler adalah alat yang sangat efektif untuk membantu mengidentifikasi dan menganalisis *bottlenecks* dalam kode aplikasi. Hal ini karena IntelliJ Profiler menawarkan serangkaian fitur komprehensif yang dirancang untuk memberikan informasi mendalam tentang berbagai aspek kinerja aplikasi seperti analisis secara real-time, visualisasi data penggunaan memori dan CPU, analisis penggunaan memori, dan profil penggunaan CPU. Dengan fitur-fitur tersebut saya dapat dengan mudah untuk mengidentifikasi dan menganalisis *bottlenecks* dalam kode saya.
