@@ -31,7 +31,7 @@ Untuk menangani situasi ini, saya akan mengevaluasi kembali kasus pengujian yang
 Untuk mengoptimalkan kode aplikasi, saya menerapkan beberapa strategi seperti *refactoring* kode untuk menghilangkan *bottleneck*, mengoptimalkan *query database*, dan mengurangi kompleksitas algoritma. Untuk memastikan perubahan tidak mempengaruhi fungsionalitas aplikasi, saya melakukan beberapa pengujian untuk memverifikasi bahwa perubahan kode tidak memicu *bug* atau masalah dalam fitur yang ada. Dengan cara ini, perubahan yang dilakukan tidak hanya meningkatkan kinerja tetapi juga mempertahankan kualitas keseluruhan aplikasi.
 
 ## JMeter Report and Test Results
-### Endpoint '/all-student'
+### Endpoint `/all-student`
 Test Result<br>
 ![alt text](https://github.com/rafizia/exercise-profiling/blob/optimize/image/test-result-1.png?raw=true)
 Before Optimization<br>
@@ -39,7 +39,7 @@ Before Optimization<br>
 After Optimization<br>
 ![alt text](https://github.com/rafizia/exercise-profiling/blob/optimize/image/after-all-student-request.png?raw=true)
 
-### Endpoint '/all-student-name'
+### Endpoint `/all-student-name`
 Test Result<br>
 ![alt text](https://github.com/rafizia/exercise-profiling/blob/optimize/image/test-result-2.png?raw=true)
 Before Optimization<br>
@@ -47,10 +47,13 @@ Before Optimization<br>
 After Optimization<br>
 ![alt text](https://github.com/rafizia/exercise-profiling/blob/optimize/image/after-all-student-name.png?raw=true)
 
-### Endpoint '/highest-gpa'
+### Endpoint `/highest-gpa`
 Test Result<br>
 ![alt text](https://github.com/rafizia/exercise-profiling/blob/optimize/image/test-result-3.png?raw=true)
 Before Optimization<br>
 ![alt text](https://github.com/rafizia/exercise-profiling/blob/optimize/image/before-highest-gpa.png?raw=true)
 After Optimization<br>
 ![alt text](https://github.com/rafizia/exercise-profiling/blob/optimize/image/after-highest-gpa.png?raw=true)
+
+### Kesimpulan
+Dari beberapa gambar di atas, terlihat bahwa terdapat peningkatan kinerja berdasarkan hasil *sample time* yang diperoleh. Waktu eksekusi setelah dilakukan *refactoring* dan optimisasi jauh lebih cepat dibandingkan saat belum dilakukan optimisasi. Kesimpulannya proses optimisasi kode dengan bantuan alat seperti JMeter dan Intellij Profiler dapat meningkatkan kinerja dari suatu kode aplikasi.
