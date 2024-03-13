@@ -24,18 +24,18 @@ public class StudentService {
     private StudentCourseRepository studentCourseRepository;
 
     public List<StudentCourse> getAllStudentsWithCourses() {
-        List<Student> students = studentRepository.findAll();
-        List<StudentCourse> studentCourses = new ArrayList<>();
-        for (Student student : students) {
-            List<StudentCourse> studentCoursesByStudent = studentCourseRepository.findByStudentId(student.getId());
-            for (StudentCourse studentCourseByStudent : studentCoursesByStudent) {
-                StudentCourse studentCourse = new StudentCourse();
-                studentCourse.setStudent(student);
-                studentCourse.setCourse(studentCourseByStudent.getCourse());
-                studentCourses.add(studentCourse);
-            }
+        List<StudentCourse> result = new ArrayList<>();
+        List<StudentCourse> studentCourses = studentCourseRepository.findAll();
+
+        for (StudentCourse studentCourse : studentCourses) {
+            Student student = studentCourse.getStudent();
+            StudentCourse newStudentCourse = new StudentCourse();
+            newStudentCourse.setStudent(student);
+            newStudentCourse.setCourse(studentCourse.getCourse());
+            result.add(newStudentCourse);
         }
-        return studentCourses;
+
+        return result;
     }
 
     public Optional<Student> findStudentWithHighestGpa() {
