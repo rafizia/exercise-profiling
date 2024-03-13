@@ -33,8 +33,24 @@ Untuk mengoptimalkan kode aplikasi, saya menerapkan beberapa strategi seperti *r
 ## JMeter Report and Test Results
 ### Endpoint '/all-student'
 Test Result<br>
-![alt text](https://github.com/rafizia/exercise-profiling/tree/optimize/image/test-result-1.png)
+![alt text](https://github.com/rafizia/exercise-profiling/blob/optimize/image/test-result-1.png?raw=true)
 Before Optimization<br>
-![alt text](https://github.com/rafizia/exercise-profiling/tree/optimize/image/before-all-student-request.png)
+![alt text](https://github.com/rafizia/exercise-profiling/blob/optimize/image/before-all-student-request.png?raw=true)
 After Optimization<br>
-![alt text](https://github.com/rafizia/exercise-profiling/tree/optimize/image/after-all-student-request.png)
+![alt text](https://github.com/rafizia/exercise-profiling/blob/optimize/image/after-all-student-request.png?raw=true)
+
+### Endpoint '/all-student-name'
+Test Result<br>
+![alt text](https://github.com/rafizia/exercise-profiling/blob/optimize/image/test-result-2.png?raw=true)
+Before Optimization<br>
+![alt text](https://github.com/rafizia/exercise-profiling/blob/optimize/image/before-all-student-name.png?raw=true)
+After Optimization<br>
+![alt text](https://github.com/rafizia/exercise-profiling/blob/optimize/image/after-all-student-name.png?raw=true)
+
+### Endpoint '/highest-gpa'
+Test Result<br>
+![alt text](https://github.com/rafizia/exercise-profiling/blob/optimize/image/test-result-3.png?raw=true)
+Before Optimization<br>
+![alt text](https://github.com/rafizia/exercise-profiling/blob/optimize/image/before-highest-gpa.png?raw=true)
+After Optimization<br>
+![alt text](https://github.com/rafizia/exercise-profiling/blob/optimize/image/after-highest-gpa.png?raw=true)
